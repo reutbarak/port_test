@@ -1,0 +1,17 @@
+- identifier: some_identifier
+  title: Some Title
+  team: []
+  icon: DefaultBlueprint
+  blueprint: githubRepository
+  properties:
+    readme: string
+    url: https://example.com
+    defaultBranch: string
+    last_contributor: string
+    last_push: '2025-06-26T15:44:05.777Z'
+    require_code_owner_review: false
+    require_approval_count: 0
+  relations:
+    githubTeams:
+      - related_entity_identifier
+      - another_related_entity_identifier
